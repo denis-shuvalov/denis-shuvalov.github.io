@@ -27,6 +27,15 @@ header {
     width: 80%;
 }
 
+#switch-lang {
+    font-size: 30px;
+    background: rgba(0,0,0,0);
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
 .content {
     margin: 40px auto;
     width: 60%;
