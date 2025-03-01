@@ -1,1 +1,52 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConSense - The Game of Communication</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>ConSense</h1>
+        <p>The board game that helps you improve communication with friends!</p>
+        <button id="switch-lang">Switch to Russian</button>
+    </header>
+    
+    <section class="content">
+        <h2>Want to be the first to know about the launch?</h2>
+        <p>Leave your e-mail, and we will notify you when pre-orders start.</p>
+        
+        <iframe src="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 ConSense. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        document.getElementById('switch-lang').addEventListener('click', function() {
+            if (document.documentElement.lang === 'en') {
+                document.documentElement.lang = 'ru';
+                document.querySelector('h1').textContent = 'ConSense';
+                document.querySelector('p').textContent = 'Настольная игра, которая поможет вам наладить общение в компании друзей!';
+                document.querySelector('h2').textContent = 'Хотите первыми узнать о старте продаж?';
+                document.querySelector('p:nth-of-type(2)').textContent = 'Оставьте ваш e-mail, и мы сообщим вам о начале предзаказов.';
+                document.querySelector('iframe').contentWindow.location.reload();
+                document.getElementById('switch-lang').textContent = 'Switch to English';
+                document.querySelector('footer p').textContent = '© 2025 ConSense. Все права защищены.';
+            } else {
+                document.documentElement.lang = 'en';
+                document.querySelector('h1').textContent = 'ConSense';
+                document.querySelector('p').textContent = 'The board game that helps you improve communication with friends!';
+                document.querySelector('h2').textContent = 'Want to be the first to know about the launch?';
+                document.querySelector('p:nth-of-type(2)').textContent = 'Leave your e-mail, and we will notify you when pre-orders start.';
+                document.querySelector('iframe').contentWindow.location.reload();
+                document.getElementById('switch-lang').textContent = 'Switch to Russian';
+                document.querySelector('footer p').textContent = '© 2025 ConSense. All rights reserved.';
+            }
+        });
+    </script>
+</body>
+</html>
