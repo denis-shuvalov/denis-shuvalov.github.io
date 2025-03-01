@@ -13,6 +13,20 @@ header {
     padding: 20px;
 }
 
+#header-div {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+#lang-switch-div {
+    width: 20%;
+}
+
+#main-header-div {
+    width: 80%;
+}
+
 .content {
     margin: 40px auto;
     width: 60%;
