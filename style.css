@@ -42,12 +42,23 @@ header {
 
 .content {
     margin: 40px auto;
-    width: 60%;
+    width: 100%;
 }
 
 iframe {
     border-radius: 10px;
-    background: white;
+    background: transparent;
+    width: 600px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+        border-radius: 10px;
+        background: transparent;
+        width: 100%;
+        height: 500px;
+    }
 }
 
 footer {
