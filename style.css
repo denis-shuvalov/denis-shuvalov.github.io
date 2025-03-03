@@ -41,6 +41,8 @@ p {
     width: 100%;
     min-height: 100%;
     height:auto;
+    display: block;
+    overflow: auto;
 }
 
 .left {
@@ -76,9 +78,6 @@ iframe {
 }
 
 @media only screen and (max-width: 700px) {
-    html,body {
-        height: 110%;
-    }
     iframe {
         border-radius: 10px;
         background: transparent;
@@ -88,10 +87,12 @@ iframe {
     .left {
         padding-top: 10px;
         width:100%;
+        min-height: 100%;
     }
     .right {
         padding-top: 10px;
         width:100%;
+        min-height: 100%;
     }
 }
 
