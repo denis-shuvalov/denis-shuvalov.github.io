@@ -6,6 +6,17 @@
   background-color: var(--background);
 }
 
+iframe {
+    border-radius: 10px;
+    background: transparent;
+    width: 100%;
+    height: 700px;
+}
+
+#stay-in-touch-div {
+  scroll-margin-top: 100px;
+}
+
 .landing-page-desktop .hero-section {
   display: flex;
   height: 960px;
@@ -174,6 +185,7 @@
   width: 195px;
   height: 51px;
   margin-top: -21px;
+  object-fit: fill;
 }
 
 .landing-page-desktop .blue-brush-stroke-2 {
@@ -181,6 +193,7 @@
   position: relative;
   height: 51px;
   margin-top: -21px;
+  object-fit: fill;
 }
 
 .landing-page-desktop .blue-brush-stroke-3 {
@@ -188,6 +201,7 @@
   position: relative;
   height: 51px;
   margin-top: -21px;
+  object-fit: fill;
 }
 
 .landing-page-desktop .pink-brush-stroke {
@@ -195,6 +209,7 @@
   width: 271px;
   height: 51px;
   margin-top: -21px;
+  object-fit: fill;
 }
 
 .landing-page-desktop .pink-brush-stroke-2 {
@@ -202,6 +217,7 @@
   width: 275px;
   height: 51px;
   margin-top: -21px;
+  object-fit: fill;
 }
 
 .landing-page-desktop .who-its-for-frame {
@@ -237,14 +253,6 @@
   position: relative;
   width: 50px;
   height: 50px;
-}
-
-.landing-page-desktop .group {
-  position: absolute;
-  width: 45px;
-  height: 50px;
-  top: 0;
-  left: 3px;
 }
 
 .landing-page-desktop .p {
@@ -333,14 +341,6 @@
   height: 57px;
   top: 7px;
   left: 19px;
-}
-
-.landing-page-desktop .overlap-group {
-  position: relative;
-  width: 58px;
-  height: 58px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/vector-1.svg);
-  background-size: 100% 100%;
 }
 
 .landing-page-desktop .group-2 {
@@ -515,7 +515,6 @@
   position: relative;
   width: 340.16px;
   height: 170.08px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group.png);
   background-size: 100% 100%;
 }
 
@@ -523,7 +522,6 @@
   position: relative;
   width: 340.16px;
   height: 170.08px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-1.png);
   background-size: 100% 100%;
 }
 
@@ -553,7 +551,6 @@
   position: relative;
   width: 340.16px;
   height: 170.08px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-2.png);
   background-size: 100% 100%;
 }
 
@@ -561,7 +558,6 @@
   position: relative;
   width: 340.16px;
   height: 170.08px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-3.png);
   background-size: 100% 100%;
 }
 
@@ -661,16 +657,6 @@
   height: 156px;
 }
 
-.landing-page-desktop .vector-wrapper {
-  position: absolute;
-  width: 112px;
-  height: 156px;
-  top: 0;
-  left: 0;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-5.png);
-  background-size: 100% 100%;
-}
-
 .landing-page-desktop .vector {
   position: absolute;
   width: 112px;
@@ -687,42 +673,12 @@
   left: 121px;
 }
 
-.landing-page-desktop .img-wrapper {
-  position: absolute;
-  width: 112px;
-  height: 156px;
-  top: 0;
-  left: 31px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-6.png);
-  background-size: 100% 100%;
-}
-
-.landing-page-desktop .group-10 {
-  position: absolute;
-  width: 112px;
-  height: 156px;
-  top: 0;
-  left: 183px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-7.png);
-  background-size: 100% 100%;
-}
-
 .landing-page-desktop .group-11 {
   position: absolute;
   width: 325px;
   height: 16px;
   top: 70px;
   left: 0;
-}
-
-.landing-page-desktop .group-12 {
-  position: absolute;
-  width: 112px;
-  height: 156px;
-  top: 0;
-  left: 456px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/clip-path-group-8.png);
-  background-size: 100% 100%;
 }
 
 .landing-page-desktop .tokens {
@@ -950,16 +906,6 @@
   font-style: var(--fonts-body-2-font-style);
 }
 
-.landing-page-desktop .style-stroke {
-  position: relative;
-  width: 27px;
-  height: 25px;
-  top: 2px;
-  left: 2px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/setting.png);
-  background-size: 100% 100%;
-}
-
 .landing-page-desktop .text-wrapper-13 {
   position: relative;
   width: fit-content;
@@ -1029,14 +975,6 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-}
-
-.landing-page-desktop .earth-svgrepo-com {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background-image: url(https://c.animaapp.com/mbm8s88kNFiD3a/img/group-15.png);
-  background-size: 100% 100%;
 }
 
 .landing-page-desktop .text-wrapper-14 {
