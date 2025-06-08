@@ -1,31 +1,389 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConSense - The Game of Communication</title>
-    <link rel="stylesheet" href="./style.css">
-    <script defer src="script.js"></script>
-</head>
-<body>
-    <header>
-    </header>
-    
-    <div class="content">
-        <div class="left image-container">
-            <img src="./Logo_Dark_BG.png" alt="Logo">
-            <p id="description">
-                Discover yourself! Connect with others!
-            </p>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="landing-page-desktop">
+      <div class="hero-section">
+        <div class="hs-container">
+          <div class="heading">
+            <div class="text-block">
+              <p class="connect-playfully">Connect playfully. <br />Explore safely. <br />Choose freely.</p>
+              <p class="text-wrapper">A consent-based card game for couples, friends, and thoughtful players.</p>
+            </div>
+            <button class="button" onclick="scrollToSection()">
+              <div class="button-text">Join the Waitlist</div>
+              <img class="arrow" src="images/arrow_button.svg" />
+            </button>
+          </div>
+          <div class="logo-consense">
+            <img class="logo-cut-edges" src="images/logo_consense.png" />
+          </div>
         </div>
-        <div class="right">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKUIF0ll5HJkzEuQRQ3wFOqevbWJM-JVZyrurs1g0OfX09rw/viewform?usp=header&embedded=true&hl=en" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+      <div class="white-section">
+        <div class="section-container">
+          <div class="section-heading">
+            <div class="heading-and-stroke">
+              <div class="text"><div class="heading-text-wrapper">Who It’s for</div></div>
+              <img class="blue-brush-stroke" src="images/blue_brush_stroke_white_background.svg"/>
+            </div>
+          </div>
+          <div class="who-its-for-frame">
+            <div class="who-its-for-frame-2">
+              <div class="img"><img class="group" src="images/brain.svg" /></div>
+              <p class="p">If You’ve Ever Wished Social Interaction Had a Rulebook…</p>
+              <p class="text-wrapper-3">
+                You&#39;re not alone. ConSense offers you a structured way to connect — clear prompts, consent tools,
+                and space to go at your own pace.<br /><br />No pressure. No guessing. Just real, honest connection.
+              </p>
+            </div>
+            <div class="who-its-for-frame-2">
+              <img class="img" src="images/heart.svg" />
+              <p class="p">If You Want to Discover — or Rediscover — Your Partner…</p>
+              <p class="text-wrapper-3">
+                Whether you just getting to know each other — or exploring new layers of intimacy.<br /><br />ConSense
+                creates space for curiosity, tenderness, playfulness — and a sensual journey, if it feels right.
+              </p>
+            </div>
+            <div class="who-its-for-frame-2">
+              <img class="img" src="images/people.svg" />
+              <p class="p">If You’re Tired of Embarrassing Party Games…</p>
+              <p class="text-wrapper-3">
+                ConSense brings depth, laughter, and room to flirt if it fits the mood. Perfect for friends, mixed
+                groups, or playful evenings with a spark. <br /><br />Fun, honest, and built on mutual consent.
+              </p>
+            </div>
+          </div>
         </div>
-        
+      </div>
+      <div class="whats-in-the-box">
+        <div class="section-container">
+          <div class="section-heading">
+            <div class="heading-and-stroke">
+              <div class="text"><div class="heading-text-wrapper-white">What’s In the Box</div></div>
+              <img class="pink-brush-stroke" src="images/pink_brush_stroke_dark_background.svg" />
+            </div>
+            <p class="text-wrapper-5">Everything you need for playful, meaningful and consent-based connection.</p>
+            <div class="game-specs">
+              <img src="images/game_specs.svg" alt="game-specs"/>
+            </div>
+          </div>
+          <div class="decks">
+            <div class="heading-2">
+              <div class="text-wrapper-6">Themed Decks</div>
+              <p class="text-wrapper-7">
+                Start light, go deeper if it feels right. Each deck contains 56 unique cards.
+              </p>
+            </div>
+            <div class="div-3">
+              <div class="div-4">
+                <div class="div-5">
+                  <div class="text-wrapper-8">Platonic Talk</div>
+                  <p class="text-wrapper-9">
+                    Lighthearted to deep prompts — from curious questions to gentle invitations to share memories,
+                    dreams, or stories.
+                  </p>
+                </div>
+                <div class="platonic-talk-cards">
+                  <img src="images/platonic_talk_cards.svg" alt="platonic_talk_cards" />
+                </div>
+              </div>
+              <div class="div-4">
+                <div class="div-5">
+                  <div class="text-wrapper-6">Platonic Action</div>
+                  <p class="text-wrapper-9">
+                    A variety of playful activities — from movement and sound to stillness and subtle presence with your
+                    partner.
+                  </p>
+                </div>
+                <div class="platonic-action">
+                  <img src="images/platonic_action_cards.svg" alt="platonic_action_cards" />
+                </div>
+              </div>
+            </div>
+            <div class="div-3">
+              <div class="div-6">
+                <div class="text-2">
+                  <div class="text-wrapper-8">Sensual Talk</div>
+                  <p class="text-wrapper-9">
+                    Flirty, intimate, and reflective prompts — inviting you to share thoughts, feelings, memories, and
+                    desires. Perfect for open-hearted talks, even in a platonic setting.
+                  </p>
+                </div>
+                <div class="sensual-talk-cards">
+                  <img src="images/sensual_talk_cards.svg" alt="sensual_talk_cards" />
+                </div>
+              </div>
+              <div class="div-6">
+                <div class="div-5">
+                  <div class="text-wrapper-8">Sensual Action</div>
+                  <p class="text-wrapper-9">
+                    Slow, sensory invitations to explore the edges of intimacy — through touch, eye contact, teasing, or
+                    playful use of texture and sound.
+                  </p>
+                </div>
+                <div class="sensual-action-cards">
+                  <img src="images/sensual_action_cards.svg" alt="sensual_action_cards" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="additional">
+            <div class="ice-breakers">
+              <div class="text-3">
+                <div class="text-wrapper-10">Ice Breaker Cards</div>
+                <p class="text-wrapper-9">Simple prompts for the whole group to warm up and shake off tension.</p>
+              </div>
+              <div class="ice-breaker-cards">
+                <img src="images/ice_breaker_cards.svg" alt="ice-breakers" />
+              </div>
+            </div>
+            <div class="lockers">
+              <div class="text-3">
+                <div class="text-wrapper-10">Lockers for the Build-Up</div>
+                <p class="text-wrapper-9">
+                  Build connection step by step. Unlock new levels as you build trust and comfort.
+                </p>
+              </div>
+              <div class="group-wrapper">
+                <img src="images/lockers.svg" alt="lockers" />
+              </div>
+            </div>
+            <div class="tokens">
+              <div class="text-3">
+                <p class="text-wrapper-10">Player Tokens &amp; Shuffle Bag</p>
+                <p class="text-wrapper-9">Draw tokens to get your interaction partner.</p>
+              </div>
+              <div class="token-shapes">
+                <img src="images/token_shapes.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="white-section">
+        <div class="section-container">
+          <div class="section-heading">
+            <div class="heading-and-stroke">
+              <div class="text"><div class="heading-text-wrapper">How It Works</div></div>
+              <img class="blue-brush-stroke-2" src="images/blue_brush_stroke_white_background.svg" />
+            </div>
+          </div>
+          <div class="div-8">
+            <div class="div-9">
+              <div class="element">
+                <div class="overlap-group-3">
+                  <div class="text-wrapper-11">1</div>
+                  <div class="ellipse"></div>
+                </div>
+              </div>
+              <div class="text-box">
+                <div class="icon-and-header">
+                  <img class="img-2" src="images/shuffle.svg" />
+                  <div class="text-wrapper-12">Draw a Token</div>
+                </div>
+                <p class="div-10">Randomly pair with another player — no pressure or awkward choosing.</p>
+              </div>
+            </div>
+            <div class="div-9">
+              <div class="element">
+                <div class="overlap-group-3">
+                  <div class="text-wrapper-11">2</div>
+                  <div class="ellipse"></div>
+                </div>
+              </div>
+              <div class="text-box">
+                <div class="icon-and-header">
+                  <img class="img-2" src="images/setting.svg"/>
+                  <div class="text-wrapper-13">Set the Tone</div>
+                </div>
+                <p class="div-10">Choose a deck that matches your comfort level with this particular person.</p>
+              </div>
+            </div>
+            <div class="div-9">
+              <div class="element">
+                <div class="overlap-group-3">
+                  <div class="text-wrapper-11">3</div>
+                  <div class="ellipse"></div>
+                </div>
+              </div>
+              <div class="text-box">
+                <div class="icon-and-header">
+                  <img
+                    class="img-2"
+                    src="images/arrow.svg"
+                  />
+                  <div class="text-wrapper-12">Pick a Card</div>
+                </div>
+                <p class="div-10">Follow the prompt, skip it, or adapt it — you’re always free to choose.</p>
+              </div>
+            </div>
+            <div class="div-9">
+              <div class="element">
+                <div class="overlap-group-3">
+                  <div class="text-wrapper-11">4</div>
+                  <div class="ellipse"></div>
+                </div>
+              </div>
+              <div class="text-box">
+                <div class="icon-and-header">
+                  <img class="img-2" src="images/checkmark.svg" />
+                  <div class="text-wrapper-12">Connect</div>
+                </div>
+                <p class="div-10">
+                  <span class="span">Discover, feel, express, engage, or simply be — let the moment unfold.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <p class="it-s-not-about-going">
+            It’s not about going further — it’s about going slower, together. <br />Always consensual. Always optional.
+          </p>
+        </div>
+      </div>
+      <div class="sustainable">
+        <div class="s-container">
+          <div class="sustainable-heading">
+            <img src="images/earth.svg" />
+            <div class="text-wrapper-14">Sustainable by Design</div>
+          </div>
+          <p class="text-wrapper-15">
+            From FSC-certified materials to plastic-free components and plant-based inks — every part of ConSense is
+            crafted with sustainability in mind.
+          </p>
+          <div class="sustainable-text-box">
+            <div class="sustainable-frame">
+              <img class="img-2" src="images/leaf.svg" />
+              <div class="div-5">
+                <div class="text-wrapper-16">Eco-friendly Materials</div>
+                <p class="text-wrapper-9">
+                  All components are made from FSC-certified materials and printed with plant-based inks.
+                </p>
+              </div>
+            </div>
+            <div class="div-3">
+              <img class="img-2" src="images/recycling.svg" />
+              <div class="div-5">
+                <div class="text-wrapper-17">Plastic-Free Design</div>
+                <p class="text-wrapper-9">
+                  Tokens and components are crafted without plastic, using sustainable alternatives.
+                </p>
+              </div>
+            </div>
+            <div class="div-3">
+              <img class="img-2" src="images/box.svg" />
+              <div class="div-5">
+                <div class="text-wrapper-17">Biodegradable Packaging</div>
+                <p class="text-wrapper-9">
+                  The game proudly carries the Ecofriendly Game certification — so you can connect with care, inside and
+                  out.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="white-section">
+        <div class="section-container">
+          <div class="section-heading">
+            <div class="heading-and-stroke">
+              <div class="text"><div class="heading-text-wrapper">Why People Love ConSense</div></div>
+              <img class="pink-brush-stroke-2" src="images/pink_brush_stroke_white_background.svg" />
+            </div>
+          </div>
+          <div class="div-8">
+            <div class="review">
+              <img class="line" src="images/blue_vertical_line.svg" />
+              <p class="text-wrapper-18">“Finally, a game that respects boundaries and sparks real connection.”</p>
+            </div>
+            <div class="review">
+              <img class="line" src="images/blue_vertical_line.svg" />
+              <p class="text-wrapper-18">“Playful, sexy, or soft — it’s always our choice.”</p>
+            </div>
+            <div class="review">
+              <img class="line" src="images/blue_vertical_line.svg" />
+              <p class="text-wrapper-18">“As a neurodivergent couple, this changed everything for us.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-the-creator">
+        <div class="atc-container">
+          <div class="about-the-creator-2">
+            <div class="icon-and-header-2">
+              <img class="img" src="images/stars.svg" />
+              <div class="text-wrapper-14">About the Creator</div>
+            </div>
+            <div class="hi-i-m-angelina-a-UX-wrapper">
+              <p class="hi-i-m-angelina-a-UX">
+                <span class="text-wrapper-19"
+                  >Hi, I’m Angelina — a UX designer passionate about human connection, consent, and exploring boundaries
+                  with curiosity and care.<br /><br />I created ConSense after falling in love with conscious touch
+                  workshops. I wanted to bring the beauty of consent-based connection to people who’ve never experienced
+                  spaces like that — through something playful, simple, and safe.<br /><br />As a neurodivergent person,
+                  I know how hard it can be to navigate social cues and expectations. This game is my way of offering a
+                  softer path — where communication is clear, choice is always yours, and closeness never comes with
+                  pressure.<br /><br
+                /></span>
+                <span class="text-wrapper-20">“Pressure doesn’t bring us closer. Honesty does.”<br /></span>
+                <span class="text-wrapper-19"
+                  ><br />Thank you for supporting this project — I hope ConSense brings you as much warmth and discovery
+                  as it brought me while creating it.<br
+                /></span>
+              </p>
+            </div>
+          </div>
+          <div class="young-beautiful-girl-wrapper">
+            <img
+              class="young-beautiful-girl"
+              src="images/author.jpeg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="stay-in-touch" id="stay-in-touch-div">
+        <div class="stay-in-touch-2">
+          <div class="heading-and-stroke">
+            <div class="text"><div class="heading-text-wrapper-white">Stay In Touch</div></div>
+            <img class="blue-brush-stroke-3" src="images/blue_brush_stroke_dark_background.svg"/>
+          </div>
+          <p class="ready-to-connect">
+            Ready to connect — your way?<br />Get exclusive early access, updates, and launch-day bonuses.
+          </p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKUIF0ll5HJkzEuQRQ3wFOqevbWJM-JVZyrurs1g0OfX09rw/viewform?usp=header&embedded=true&hl=en" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+      <footer class="footer"><p class="text-wrapper-21">©2025 Good To Know. All rights reserved.</p></footer>
+      <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <img
+              class="good-to-know"
+              src="images/logo.svg"
+            />
+          </div>
+          <div class="button-and-text">
+            <p class="text-wrapper-22">Get early access — and a special discount when we launch on Kickstarter.</p>
+            <button class="button-2" onclick="scrollToSection()">
+              <div class="button-text">Join the Waitlist</div>
+              <img class="arrow-2" src="images/arrow_button.svg" />
+            </button>
+          </div>
+        </div>
+      </header>
     </div>
-    
-    <footer>
-        <p id="copyright">&copy; 2025 Good to Know. All rights reserved.</p>
-    </footer>
-</body>
+
+    <script>
+  function scrollToSection() {
+    document.getElementById("stay-in-touch-div").scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+
+  </body>
 </html>
