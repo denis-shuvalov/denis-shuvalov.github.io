@@ -1196,6 +1196,8 @@ iframe {
   width: 354px;
   flex-grow: 1;
   object-fit: cover;
+  border-radius: 20px;
+
 }
 
 .landing-page-desktop .stay-in-touch {
