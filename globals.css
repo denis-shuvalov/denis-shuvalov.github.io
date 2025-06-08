@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:var(--fonts-header-3-font-weight),var(--fonts-numbers-font-weight),400,var(--fonts-body-4-black-font-weight),var(--fonts-body-1-italic-font-weight),var(--fonts-body-3-italic-font-weight),var(--fonts-header-2-font-weight),var(--fonts-buttons-font-weight),var(--fonts-header-4-font-weight),var(--fonts-body-2-italic-font-weight),var(--fonts-header-1-font-weight),var(--fonts-body-1-font-weight),var(--fonts-body-4-font-weight),var(--fonts-body-2-font-weight),var(--fonts-body-3-font-weight),italic");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
