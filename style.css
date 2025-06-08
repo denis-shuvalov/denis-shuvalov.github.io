@@ -88,7 +88,7 @@
   border-radius: 25px;
 }
 
-.landing-page-desktop .div {
+.landing-page-desktop .button-text {
   position: relative;
   width: fit-content;
   font-family: var(--fonts-buttons-font-family);
@@ -126,30 +126,7 @@
   object-fit: cover;
 }
 
-.landing-page-desktop .who-its-for {
-  display: flex;
-  flex-direction: column;
-  height: 537px;
-  align-items: center;
-  gap: 30px;
-  padding: 60px 220px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  background-color: var(--white);
-}
-
-.landing-page-desktop .wif-container {
-  display: flex;
-  flex-direction: column;
-  width: 1480px;
-  height: 417px;
-  align-items: flex-start;
-  justify-content: space-between;
-  position: relative;
-}
-
-.landing-page-desktop .who-its-for-heading {
+.landing-page-desktop .section-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,10 +135,9 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: var(--white);
 }
 
-.landing-page-desktop .div-2 {
+.landing-page-desktop .heading-and-stroke {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-end;
@@ -171,7 +147,6 @@
 
 .landing-page-desktop .text {
   display: flex;
-  width: 344px;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
@@ -180,7 +155,7 @@
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .text-wrapper-2 {
+.landing-page-desktop .heading-text-wrapper {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
@@ -197,6 +172,34 @@
 .landing-page-desktop .blue-brush-stroke {
   position: relative;
   width: 195px;
+  height: 51px;
+  margin-top: -21px;
+}
+
+.landing-page-desktop .blue-brush-stroke-2 {
+  width: 235px;
+  position: relative;
+  height: 51px;
+  margin-top: -21px;
+}
+
+.landing-page-desktop .blue-brush-stroke-3 {
+  width: 240px;
+  position: relative;
+  height: 51px;
+  margin-top: -21px;
+}
+
+.landing-page-desktop .pink-brush-stroke {
+  position: relative;
+  width: 271px;
+  height: 51px;
+  margin-top: -21px;
+}
+
+.landing-page-desktop .pink-brush-stroke-2 {
+  position: relative;
+  width: 275px;
   height: 51px;
   margin-top: -21px;
 }
@@ -280,29 +283,6 @@
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .witb-container {
-  width: 1480px;
-  height: 1135.16px;
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.landing-page-desktop .witb-heading {
-  justify-content: center;
-  gap: 16px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: var(--background);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
 .landing-page-desktop .frame {
   width: 470px;
   align-items: center;
@@ -314,7 +294,7 @@
   position: relative;
 }
 
-.landing-page-desktop .text-wrapper-4 {
+.landing-page-desktop .heading-text-wrapper-white {
   position: relative;
   flex: 1;
   margin-top: -1.00px;
@@ -326,13 +306,6 @@
   letter-spacing: var(--fonts-header-2-letter-spacing);
   line-height: var(--fonts-header-2-line-height);
   font-style: var(--fonts-header-2-font-style);
-}
-
-.landing-page-desktop .pink-brush-stroke {
-  position: relative;
-  width: 271px;
-  height: 51px;
-  margin-top: -21px;
 }
 
 .landing-page-desktop .text-wrapper-5 {
@@ -835,7 +808,7 @@
   left: 5px;
 }
 
-.landing-page-desktop .div-wrapper {
+.landing-page-desktop .white-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -848,7 +821,7 @@
   background-color: var(--white);
 }
 
-.landing-page-desktop .div-7 {
+.landing-page-desktop .section-container {
   display: flex;
   flex-direction: column;
   width: 1480px;
@@ -856,24 +829,6 @@
   gap: 30px;
   position: relative;
   flex: 0 0 auto;
-}
-
-.landing-page-desktop .heading-and-stroke {
-  display: flex;
-  width: 387px;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 10px;
-  padding: 0px 50px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.landing-page-desktop .blue-brush-stroke-2 {
-  width: 235px;
-  position: relative;
-  height: 51px;
-  margin-top: -21px;
 }
 
 .landing-page-desktop .div-8 {
@@ -1169,13 +1124,6 @@
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .pink-brush-stroke-2 {
-  position: relative;
-  width: 275px;
-  height: 51px;
-  margin-top: -21px;
-}
-
 .landing-page-desktop .review {
   display: flex;
   align-items: center;
@@ -1344,13 +1292,6 @@
   display: flex;
   gap: 10px;
   position: relative;
-}
-
-.landing-page-desktop .blue-brush-stroke-3 {
-  width: 240px;
-  position: relative;
-  height: 51px;
-  margin-top: -21px;
 }
 
 .landing-page-desktop .ready-to-connect {
