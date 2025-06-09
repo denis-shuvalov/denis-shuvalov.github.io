@@ -23,7 +23,7 @@ iframe {
   align-items: center;
   justify-content: space-around;
   gap: 60px;
-  padding: 140px 220px;
+  padding: 140px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -284,7 +284,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 60px 220px;
+  padding: 60px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -463,7 +463,7 @@ iframe {
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .div-4 {
+.landing-page-desktop .platonic-div {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -525,7 +525,7 @@ iframe {
   background-size: 100% 100%;
 }
 
-.landing-page-desktop .div-6 {
+.landing-page-desktop .sensual-div {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -563,8 +563,10 @@ iframe {
 
 .landing-page-desktop .additional {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  align-self: center;
   gap: 20px;
   position: relative;
   align-self: stretch;
@@ -632,11 +634,10 @@ iframe {
   border-radius: 20px;
 }
 
-.landing-page-desktop .group-wrapper {
+.landing-page-desktop .lockers-pic-wrapper {
   position: relative;
-  align-self: stretch;
+  align-self: center;
   width: 100%;
-  height: 166.38px;
 }
 
 .landing-page-desktop .bleed-wrapper {
@@ -769,7 +770,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding: 60px 220px;
+  padding: 60px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -780,7 +781,7 @@ iframe {
 .landing-page-desktop .section-container {
   display: flex;
   flex-direction: column;
-  width: 1480px;
+  max-width: 1480px;
   align-items: center;
   gap: 30px;
   position: relative;
@@ -798,7 +799,7 @@ iframe {
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .div-9 {
+.landing-page-desktop .hiw-block {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -861,6 +862,7 @@ iframe {
   position: relative;
   flex: 1;
   flex-grow: 1;
+  align-self: baseline;
 }
 
 .landing-page-desktop .icon-and-header {
@@ -879,10 +881,10 @@ iframe {
   height: 30px;
 }
 
-.landing-page-desktop .text-wrapper-12 {
+.landing-page-desktop .hiw-block-title {
   position: relative;
   align-self: stretch;
-  width: 171px;
+  width: auto;
   margin-top: -1.00px;
   margin-right: -1.00px;
   font-family: var(--fonts-header-4-font-family);
@@ -904,19 +906,6 @@ iframe {
   letter-spacing: 0;
   line-height: var(--fonts-body-2-line-height);
   font-style: var(--fonts-body-2-font-style);
-}
-
-.landing-page-desktop .text-wrapper-13 {
-  position: relative;
-  width: fit-content;
-  font-family: var(--fonts-header-4-font-family);
-  font-weight: var(--fonts-header-4-font-weight);
-  color: var(--black);
-  font-size: var(--fonts-header-4-font-size);
-  letter-spacing: var(--fonts-header-4-letter-spacing);
-  line-height: var(--fonts-header-4-line-height);
-  white-space: nowrap;
-  font-style: var(--fonts-header-4-font-style);
 }
 
 .landing-page-desktop .span {
@@ -1288,7 +1277,7 @@ iframe {
   align-items: center;
   justify-content: center;
   gap: 767px;
-  padding: 16px 220px;
+  padding: 16px 32px;
   position: fixed;
   top: 0;
   left: 0;
@@ -1363,4 +1352,38 @@ iframe {
 .landing-page-desktop .arrow-2 {
   position: relative;
   flex: 0 0 auto;
+}
+
+@media (max-width: 1445px) {
+  .landing-page-desktop .additional {
+    flex-wrap: wrap;
+    max-width:840px;
+    align-self: center;
+  }
+
+  .landing-page-desktop .lockers {
+    order: 1;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    height: auto;
+  }
+
+  .landing-page-desktop .ice-breakers,
+  .landing-page-desktop .tokens {
+    order: 2;
+    flex: 1 1 48%;
+  }
+  .landing-page-desktop .decks {
+    max-width:840px;
+  }
+
+  .landing-page-desktop .platonic-div, .hiw-block {
+    flex-direction: column;
+  }
+  .landing-page-desktop .sensual-div {
+    flex-direction: column;
+    height: 344px;
+  }
 }
