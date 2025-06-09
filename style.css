@@ -1387,3 +1387,25 @@ iframe {
     height: 344px;
   }
 }
+
+@media (max-width: 1174px) {
+  .landing-page-desktop .hs-container {
+    flex-direction: column;
+    height: auto;
+    padding-top:100px;
+  }
+
+  .landing-page-desktop .logo-consense {
+    order: 1;
+    flex: 1 1 100%;
+  }
+
+  .landing-page-desktop .heading {
+    order: 2;
+    flex: 1 1 100%;
+  }
+
+  .landing-page-desktop .text-block {
+    flex-direction: column-reverse;
+  }
+}
