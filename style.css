@@ -331,8 +331,9 @@ iframe {
 
 .landing-page-desktop .game-specs {
   position: relative;
-  width: 517px;
-  height: 70px;
+  width:100%;
+  max-width: 517px;
+  max-height: 70px;
 }
 
 .landing-page-desktop .overlap-group-wrapper {
@@ -463,6 +464,17 @@ iframe {
   flex: 0 0 auto;
 }
 
+.landing-page-desktop .decks-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
 .landing-page-desktop .platonic-div {
   display: flex;
   align-items: center;
@@ -513,14 +525,16 @@ iframe {
 
 .landing-page-desktop .platonic-talk-cards {
   position: relative;
-  width: 340.16px;
+  width:100%;
+  max-width: 340.16px;
   height: 170.08px;
   background-size: 100% 100%;
 }
 
-.landing-page-desktop .platonic-action {
+.landing-page-desktop .platonic-action-cards {
   position: relative;
-  width: 340.16px;
+  width:100%;
+  max-width: 340.16px;
   height: 170.08px;
   background-size: 100% 100%;
 }
@@ -549,14 +563,16 @@ iframe {
 
 .landing-page-desktop .sensual-talk-cards {
   position: relative;
-  width: 340.16px;
+  width:100%;
+  max-width: 340.16px;
   height: 170.08px;
   background-size: 100% 100%;
 }
 
 .landing-page-desktop .sensual-action-cards {
   position: relative;
-  width: 340.16px;
+  width:100%;
+  max-width: 340.16px;
   height: 170.08px;
   background-size: 100% 100%;
 }
@@ -579,7 +595,6 @@ iframe {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
   height: 296px;
   gap: 10px;
   padding: 20px 30px;
@@ -591,7 +606,8 @@ iframe {
 
 .landing-page-desktop .ice-breaker-cards {
   position: relative;
-  width: 340px;
+  width:100%;
+  max-width: 340px;
   height: 170px;
 }
 
@@ -685,7 +701,6 @@ iframe {
 .landing-page-desktop .tokens {
   display: flex;
   flex-direction: column;
-  width: 400px;
   height: 296px;
   align-items: center;
   gap: 25px;
@@ -697,7 +712,8 @@ iframe {
 
 .landing-page-desktop .token-shapes {
   position: relative;
-  width: 325px;
+  width: 100%;
+  max-width: 325px;
   height: 162px;
 }
 
@@ -788,7 +804,7 @@ iframe {
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .div-8 {
+.landing-page-desktop .text-blocks-div {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -936,7 +952,7 @@ iframe {
   align-items: flex-start;
   justify-content: center;
   gap: 60px;
-  padding: 60px 220px;
+  padding: 60px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -946,7 +962,8 @@ iframe {
 .landing-page-desktop .s-container {
   display: flex;
   flex-direction: column;
-  width: 728px;
+  width:100%;
+  max-width: 728px;
   align-items: center;
   gap: 20px;
   padding: 30px;
@@ -966,17 +983,17 @@ iframe {
   flex: 0 0 auto;
 }
 
-.landing-page-desktop .text-wrapper-14 {
+.landing-page-desktop .heading-text-wrapper-white {
   position: relative;
-  width: fit-content;
+  flex: 1;
   margin-top: -1.00px;
   font-family: var(--fonts-header-2-font-family);
   font-weight: var(--fonts-header-2-font-weight);
   color: var(--white);
   font-size: var(--fonts-header-2-font-size);
+  text-align: center;
   letter-spacing: var(--fonts-header-2-letter-spacing);
   line-height: var(--fonts-header-2-line-height);
-  white-space: nowrap;
   font-style: var(--fonts-header-2-font-style);
 }
 
@@ -1091,7 +1108,7 @@ iframe {
   align-items: flex-start;
   justify-content: center;
   gap: 117px;
-  padding: 60px 220px;
+  padding: 60px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -1182,7 +1199,8 @@ iframe {
 .landing-page-desktop .young-beautiful-girl {
   position: relative;
   flex: 1;
-  width: 354px;
+  width:100%;
+  max-width: 354px;
   flex-grow: 1;
   object-fit: cover;
   border-radius: 20px;
@@ -1195,7 +1213,7 @@ iframe {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  padding: 60px 220px;
+  padding: 60px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -1205,7 +1223,8 @@ iframe {
 .landing-page-desktop .stay-in-touch-2 {
   display: flex;
   flex-direction: column;
-  width: 646px;
+  width:100%;
+  max-width: 646px;
   align-items: center;
   gap: 16px;
   position: relative;
@@ -1248,7 +1267,7 @@ iframe {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding: 30px 220px;
+  padding: 30px 32px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -1321,7 +1340,7 @@ iframe {
   position: relative;
 }
 
-.landing-page-desktop .text-wrapper-22 {
+.landing-page-desktop .text-early-access {
   position: relative;
   width: 321px;
   font-family: var(--fonts-body-1-italic-font-family);
@@ -1407,5 +1426,77 @@ iframe {
 
   .landing-page-desktop .text-block {
     flex-direction: column-reverse;
+    text-align: center;
   }
+  .landing-page-desktop .text-blocks-div {
+    flex-direction: column;
+  }
+
+  .landing-page-desktop .hiw-block{
+    flex-direction: row;
+  }
+
+  .landing-page-desktop .heading {
+    align-items: center;
+  }
+}
+
+@media (max-width: 880px) {
+  .landing-page-desktop .lockers,
+  .landing-page-desktop .ice-breakers,
+  .landing-page-desktop .tokens {
+    flex: 1 1 100%;
+  }
+  .landing-page-desktop .decks-row {
+    flex-direction: column;
+  }
+
+  .landing-page-desktop .ice-breackers,
+  .landing-page-desktop .lockers,
+  .landing-page-desktop .tockens {
+    width: auto;
+  }
+
+  .landing-page-desktop .atc-container,
+  .landing-page-desktop .sustainable-heading,
+  .landing-page-desktop .icon-and-header-2 {
+    flex-direction: column;
+    height:auto;
+  }
+  .landing-page-desktop .about-the-creator-2,
+  .landing-page-desktop .hi-i-m-angelina-a-UX-wrapper {
+    width: 100%;
+  }
+
+  .landing-page-desktop .heading,
+  .landing-page-desktop .logo-consense {
+    max-width:580px;
+    width:100%;
+  }
+  .landing-page-desktop .logo-cut-edges {
+    height:auto;
+    max-height: 407px;
+  }
+  .landing-page-desktop .connect-playfully,
+  .landing-page-desktop .text-early-access{
+    display: none;
+  }
+  .landing-page-desktop .button-and-text {
+    width:auto;
+  }
+
+  .landing-page-desktop .about-the-creator-2 {
+    height:auto;
+  }
+  .landing-page-desktop .white-section,
+  .landing-page-desktop .hero-section,
+  .landing-page-desktop .whats-in-the-box,
+  .landing-page-desktop .white-section,
+  .landing-page-desktop .sustainable,
+  .landing-page-desktop .about-the-creator,
+  .landing-page-desktop .stay-in-touch,
+  .landing-page-desktop .footer {
+    padding: 60px 16px;
+  }
+
 }
