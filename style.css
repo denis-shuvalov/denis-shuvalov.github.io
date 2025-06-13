@@ -21,6 +21,27 @@ iframe {
   padding-bottom:0;
 }
 
+#early-access-bottom {
+  position: relative;
+  width: auto;
+  font-family: var(--fonts-body-1-italic-font-family);
+  font-weight: var(--fonts-body-1-italic-font-weight);
+  font-style: var(--fonts-body-1-italic-font-style);
+  color: var(--white);
+  font-size: var(--fonts-body-1-italic-font-size);
+  text-align: center;
+  letter-spacing: var(--fonts-body-1-italic-letter-spacing);
+  line-height: var(--fonts-body-1-italic-line-height);
+  display:none;
+}
+
+.landing-page-desktop .button-and-text-bottom{
+  display:flex;
+  flex-direction: column;
+  gap:16px;
+  align-items: center;
+}
+
 .landing-page-desktop .hero-section {
   display: flex;
   height: 100vh;
@@ -94,6 +115,7 @@ iframe {
   box-sizing: border-box;
   display: inline-flex;
   height: 50px;
+  width:174px;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
@@ -529,21 +551,14 @@ iframe {
   font-style: var(--fonts-body-1-font-style);
 }
 
-.landing-page-desktop .platonic-talk-cards {
+.landing-page-desktop .cards {
   position: relative;
   width:100%;
   max-width: 340.16px;
-  height: 170.08px;
+  height: auto;
   background-size: 100% 100%;
 }
 
-.landing-page-desktop .platonic-action-cards {
-  position: relative;
-  width:100%;
-  max-width: 340.16px;
-  height: 170.08px;
-  background-size: 100% 100%;
-}
 
 .landing-page-desktop .sensual-div {
   display: flex;
@@ -565,22 +580,6 @@ iframe {
   position: relative;
   flex: 1;
   flex-grow: 1;
-}
-
-.landing-page-desktop .sensual-talk-cards {
-  position: relative;
-  width:100%;
-  max-width: 340.16px;
-  height: 170.08px;
-  background-size: 100% 100%;
-}
-
-.landing-page-desktop .sensual-action-cards {
-  position: relative;
-  width:100%;
-  max-width: 340.16px;
-  height: 170.08px;
-  background-size: 100% 100%;
 }
 
 .landing-page-desktop .additional {
@@ -1096,7 +1095,9 @@ iframe {
 .landing-page-desktop .line {
   position: relative;
   width: 5px;
-  height: 50px;
+  height: auto;
+  align-self: stretch;
+  object-fit: contain;
 }
 
 .landing-page-desktop .text-wrapper-18 {
@@ -1365,6 +1366,7 @@ iframe {
   box-sizing: border-box;
   display: inline-flex;
   height: 50px;
+  width:174px;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -1500,6 +1502,9 @@ iframe {
   .landing-page-desktop .connect-playfully,
   .landing-page-desktop .text-early-access{
     display: none;
+  }
+  #early-access-bottom {
+    display:block;
   }
   .landing-page-desktop .button-and-text {
     width:auto;
