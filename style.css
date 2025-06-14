@@ -35,6 +35,23 @@ iframe {
   display:none;
 }
 
+.landing-page-desktop .blue {
+  background-color: var(--primary-blue)
+}
+
+.landing-page-desktop .pink {
+  background-color: var(--primary-pink)
+}
+
+.landing-page-desktop .line {
+  position: relative;
+  width: 6px;
+  height: auto;
+  align-self: stretch;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
 .landing-page-desktop .button-and-text-bottom{
   display:flex;
   flex-direction: column;
@@ -132,7 +149,6 @@ iframe {
   font-weight: var(--fonts-buttons-font-weight);
   color: var(--white);
   font-size: var(--fonts-buttons-font-size);
-  letter-spacing: var(--fonts-buttons-letter-spacing);
   line-height: var(--fonts-buttons-line-height);
   white-space: nowrap;
   font-style: var(--fonts-buttons-font-style);
@@ -554,7 +570,7 @@ iframe {
 .landing-page-desktop .cards {
   position: relative;
   width:100%;
-  max-width: 340.16px;
+  max-width: 425px;
   height: auto;
   background-size: 100% 100%;
 }
@@ -564,7 +580,7 @@ iframe {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 15px 20px;
+  padding: 16px 20px;
   position: relative;
   flex: 1;
   flex-grow: 1;
@@ -1092,24 +1108,16 @@ iframe {
   );
 }
 
-.landing-page-desktop .line {
-  position: relative;
-  width: 5px;
-  height: auto;
-  align-self: stretch;
-  object-fit: contain;
-}
-
 .landing-page-desktop .text-wrapper-18 {
   position: relative;
   flex: 1;
-  font-family: var(--fonts-body-3-italic-font-family);
-  font-weight: var(--fonts-body-3-italic-font-weight);
-  font-style: var(--fonts-body-3-italic-font-style);
+  font-family: var(--fonts-body-2-italic-font-family);
+  font-weight: var(--fonts-body-2-italic-font-weight);
+  font-style: var(--fonts-body-2-italic-font-style);
   color: var(--black);
-  font-size: var(--fonts-body-3-italic-font-size);
-  letter-spacing: var(--fonts-body-3-italic-letter-spacing);
-  line-height: var(--fonts-body-3-italic-line-height);
+  font-size: var(--fonts-body-2-italic-font-size);
+  letter-spacing: var(--fonts-body-2-italic-letter-spacing);
+  line-height: var(--fonts-body-2-italic-line-height);
 }
 
 .landing-page-desktop .about-the-creator {
@@ -1485,7 +1493,11 @@ iframe {
     width: 100%;
   }
 
-  .landing-page-desktop .atc-container {
+  .landing-page-desktop .atc-container,
+  .landing-page-desktop .sensual-div,
+  .landing-page-desktop .platonic-div,
+  .landing-page-desktop .who-its-for-frame-2,
+  .landing-page-desktop .review {
     padding: 16px;
   }
 
