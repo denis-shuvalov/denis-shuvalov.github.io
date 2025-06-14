@@ -159,7 +159,6 @@ button{
   justify-content: center;
   gap: 4px;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .landing-page-desktop .logo-cut-edges {
@@ -1430,6 +1429,7 @@ button{
   .landing-page-desktop .logo-consense {
     order: 1;
     flex: 1 1 100%;
+    margin-bottom: 20px;
   }
 
   .landing-page-desktop .heading {
