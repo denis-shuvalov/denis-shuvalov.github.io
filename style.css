@@ -21,6 +21,10 @@ iframe {
   padding-bottom:0;
 }
 
+button{
+  all:unset;
+}
+
 #early-access-bottom {
   position: relative;
   width: auto;
@@ -127,21 +131,6 @@ iframe {
   font-style: var(--fonts-body-4-font-style);
 }
 
-.landing-page-desktop .button {
-  all: unset;
-  box-sizing: border-box;
-  display: inline-flex;
-  height: 50px;
-  width:174px;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 10px;
-  padding: 15px 20px;
-  position: relative;
-  background-color: var(--primary-blue);
-  border-radius: 25px;
-}
-
 .landing-page-desktop .button-text {
   position: relative;
   width: fit-content;
@@ -150,7 +139,7 @@ iframe {
   color: var(--white);
   font-size: var(--fonts-buttons-font-size);
   line-height: var(--fonts-buttons-line-height);
-  white-space: nowrap;
+  white-space: normal;
   font-style: var(--fonts-buttons-font-style);
 }
 
@@ -480,7 +469,7 @@ iframe {
   font-size: var(--fonts-header-3-font-size);
   letter-spacing: var(--fonts-header-3-letter-spacing);
   line-height: var(--fonts-header-3-line-height);
-  white-space: nowrap;
+  white-space: normal;
   font-style: var(--fonts-header-3-font-style);
 }
 
@@ -1192,6 +1181,15 @@ iframe {
 
 .landing-page-desktop .text-wrapper-19 {
   line-height: 19.2px;
+  position: relative;
+  align-self: stretch;
+  font-family: var(--fonts-body-2-font-family);
+  font-weight: var(--fonts-body-2-font-weight);
+  color: var(--white);
+  font-size: var(--fonts-body-2-font-size);
+  letter-spacing: 0;
+  line-height: var(--fonts-body-2-line-height);
+  font-style: var(--fonts-body-2-font-style);
 }
 
 .landing-page-desktop .text-wrapper-20 {
@@ -1301,8 +1299,9 @@ iframe {
   font-size: var(--fonts-body-1-font-size);
   letter-spacing: var(--fonts-body-1-letter-spacing);
   line-height: var(--fonts-body-1-line-height);
-  white-space: nowrap;
+  white-space: normal;
   font-style: var(--fonts-body-1-font-style);
+  text-align: center;
 }
 
 .landing-page-desktop .header {
@@ -1368,8 +1367,7 @@ iframe {
   line-height: var(--fonts-body-1-italic-line-height);
 }
 
-.landing-page-desktop .button-2 {
-  all: unset;
+.landing-page-desktop .button {
   box-sizing: border-box;
   display: inline-flex;
   height: 50px;
@@ -1377,10 +1375,8 @@ iframe {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 0px 20px;
+  padding: 0px 16px;
   position: relative;
-  flex: 0 0 auto;
-  background-color: var(--primary-pink);
   border-radius: 25px;
 }
 
