@@ -141,6 +141,7 @@ button{
   line-height: var(--fonts-buttons-line-height);
   white-space: normal;
   font-style: var(--fonts-buttons-font-style);
+  letter-spacing: var(--fonts-buttons-letter-spacing);
 }
 
 .landing-page-desktop .arrow {
