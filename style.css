@@ -1129,6 +1129,17 @@ button{
   line-height: var(--fonts-body-2-italic-line-height);
 }
 
+.landing-page-desktop .wks-text {
+  position: relative;
+  flex: 1;
+  font-family: var(--fonts-body-2-font-family);
+  font-weight: var(--fonts-body-2-font-weight);
+  color: var(--black);
+  font-size: var(--fonts-body-2-font-size);
+  line-height: var(--fonts-body-2-line-height);
+  font-style: var(--fonts-body-2-font-style);
+}
+
 .landing-page-desktop .about-the-creator {
   display: flex;
   align-items: flex-start;
