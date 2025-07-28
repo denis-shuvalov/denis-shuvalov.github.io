@@ -13,7 +13,7 @@ iframe {
     height: 700px;
 }
 
-#stay-in-touch-div, #who_its_for, #whats_in_the_box, #how_it_works, #sustainable_by_design, #why_people_love_consense, #about_the_creator, #stay_in_touch{
+#stay-in-touch-div, #who_its_for, #whats_in_the_box, #how_it_works, #sustainable_by_design, #why_people_love_consense, #about_the_creator, #why_kickstarter, #stay_in_touch{
   scroll-margin-top: 100px;
 }
 
@@ -846,6 +846,25 @@ button{
   );
 }
 
+.landing-page-desktop .wks-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 30px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 20px;
+  background: linear-gradient(
+    315deg,
+    rgba(214, 79, 127, 0.1) 0%,
+    rgba(69, 140, 168, 0.1) 100%
+  );
+}
+
 .landing-page-desktop .element {
   position: relative;
   width: 52px;
@@ -1542,6 +1561,7 @@ button{
     gap: 16px;
   }
   .landing-page-desktop .hiw-block,
+  .landing-page-desktop .wks-block,
   .landing-page-desktop .s-container {
     gap: 16px;
     padding:16px;
@@ -1553,6 +1573,12 @@ button{
 
 @media (max-width: 725px) {
   #wplc-heading-and-stroke{
+    align-items: center;
+  }
+}
+
+@media (max-width: 444px) {
+  #wks-heading-and-stroke{
     align-items: center;
   }
 }
