@@ -10,8 +10,32 @@
 
   gtag('config', 'AW-17395242817');
 </script>
+<!-- Event snippet for Subscribtion for ConSense newsletters conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion() {
+  
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17395242817/vkiHCPq1wPoaEMGu2eZA',
+  });
+  return false;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Проверяем периодически, появилась ли кнопка
+    const interval = setInterval(() => {
+      const container = document.querySelector('.ml-embedded');
+      const button = container?.querySelector('button');
+
+      if (button) {
+        button.addEventListener('click', gtag_report_conversion);
+        clearInterval(interval); // Останавливаем проверку
+      }
+    }, 200); // Проверяем каждые 200 мс
+  });
+</script>
     <!-- Start cookieyes banner -->
-    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/43d5c3ac5d30dc51cb54bc28/script.js"></script>
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/43d5c3ac5d30dc51cb54bc28/script.js"></script> 
     <!-- End cookieyes banner -->
     <title>ConSense — Consent‑Based Card Game for Intimacy and Connection</title>
     <meta name="description" content="Playfully explore intimacy and connection — platonic or romantic — with ConSense, a consent‑based card game for couples, friends, and parties.">
