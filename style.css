@@ -13,7 +13,7 @@ iframe {
     height: 700px;
 }
 
-#stay-in-touch-div {
+#stay-in-touch-div, #who_its_for, #whats_in_the_box, #how_it_works, #sustainable_by_design, #why_people_love_consense, #about_the_creator, #stay_in_touch{
   scroll-margin-top: 100px;
 }
 
