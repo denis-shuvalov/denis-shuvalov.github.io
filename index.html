@@ -35,23 +35,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 </script>
     <!-- Start cookieyes banner -->
-<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/43d5c3ac5d30dc51cb54bc28/script.js"></script>
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/43d5c3ac5d30dc51cb54bc28/script.js" defer></script>
     <!-- End cookieyes banner -->
     <title>ConSense — Consent‑Based Card Game for Intimacy and Connection</title>
     <meta name="description" content="Playfully explore intimacy and connection — platonic or romantic — with ConSense, a consent‑based card game for couples, friends, and parties.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
     <link rel="icon" href="images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="style.css"></noscript>
     <!-- MailerLite Universal -->
 <script>
+  window.addEventListener('DOMContentLoaded', function () {
     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
     .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
     n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
     (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
     ml('account', '1677177');
+  });
 </script>
 <!-- End MailerLite Universal -->
 <!-- Meta Pixel Code -->
