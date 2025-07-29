@@ -1,3 +1,119 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --primary-blue: rgba(69, 140, 168, 1);
+  --background: rgba(25, 34, 52, 1);
+  --black: rgba(0, 0, 0, 1);
+  --primary-pink: rgba(214, 79, 127, 1);
+  --blue-block: rgba(69, 140, 168, 0.4);
+  --pink-block: rgba(214, 79, 127, 0.4);
+  --block-on-dark: rgba(69, 140, 168, 0.15);
+  --fonts-header-1-font-family: "Roboto", Helvetica;
+  --fonts-header-1-font-weight: 700;
+  --fonts-header-1-font-size: 64px;
+  --fonts-header-1-letter-spacing: 0px;
+  --fonts-header-1-line-height: normal;
+  --fonts-header-1-font-style: normal;
+  --fonts-body-4-font-family: "Roboto", Helvetica;
+  --fonts-body-4-font-weight: 400;
+  --fonts-body-4-font-size: 26px;
+  --fonts-body-4-letter-spacing: 0px;
+  --fonts-body-4-line-height: 120%;
+  --fonts-body-4-font-style: normal;
+  --fonts-buttons-font-family: "Roboto", Helvetica;
+  --fonts-buttons-font-weight: 700;
+  --fonts-buttons-font-size: 16px;
+  --fonts-buttons-letter-spacing: -0.32px;
+  --fonts-buttons-line-height: 100%;
+  --fonts-buttons-font-style: normal;
+  --fonts-header-2-font-family: "Roboto", Helvetica;
+  --fonts-header-2-font-weight: 700;
+  --fonts-header-2-font-size: 48px;
+  --fonts-header-2-letter-spacing: 0px;
+  --fonts-header-2-line-height: normal;
+  --fonts-header-2-font-style: normal;
+  --fonts-header-4-font-family: "Roboto", Helvetica;
+  --fonts-header-4-font-weight: 900;
+  --fonts-header-4-font-size: 24px;
+  --fonts-header-4-letter-spacing: 0px;
+  --fonts-header-4-line-height: normal;
+  --fonts-header-4-font-style: normal;
+  --fonts-body-1-font-family: "Roboto", Helvetica;
+  --fonts-body-1-font-weight: 400;
+  --fonts-body-1-font-size: 16px;
+  --fonts-body-1-letter-spacing: 0px;
+  --fonts-body-1-line-height: 120%;
+  --fonts-body-1-font-style: normal;
+  --fonts-header-3-font-family: "Roboto", Helvetica;
+  --fonts-header-3-font-weight: 900;
+  --fonts-header-3-font-size: 32px;
+  --fonts-header-3-letter-spacing: 0px;
+  --fonts-header-3-line-height: 120%;
+  --fonts-header-3-font-style: normal;
+  --fonts-body-2-font-family: "Roboto", Helvetica;
+  --fonts-body-2-font-weight: 400;
+  --fonts-body-2-font-size: 18px;
+  --fonts-body-2-line-height: 120%;
+  --fonts-body-2-font-style: normal;
+  --fonts-numbers-font-family: "Roboto", Helvetica;
+  --fonts-numbers-font-weight: 500;
+  --fonts-numbers-font-size: 32px;
+  --fonts-numbers-letter-spacing: 0px;
+  --fonts-numbers-line-height: 120%;
+  --fonts-numbers-font-style: normal;
+  --fonts-body-2-italic-font-family: "Roboto", Helvetica;
+  --fonts-body-2-italic-font-weight: 400;
+  --fonts-body-2-italic-font-size: 18px;
+  --fonts-body-2-italic-letter-spacing: 0px;
+  --fonts-body-2-italic-line-height: 120%;
+  --fonts-body-2-italic-font-style: italic;
+  --fonts-body-3-font-family: "Roboto", Helvetica;
+  --fonts-body-3-font-weight: 400;
+  --fonts-body-3-font-size: 20px;
+  --fonts-body-3-letter-spacing: 0px;
+  --fonts-body-3-line-height: 120%;
+  --fonts-body-3-font-style: normal;
+  --fonts-body-4-black-font-family: "Roboto", Helvetica;
+  --fonts-body-4-black-font-weight: 900;
+  --fonts-body-4-black-font-size: 26px;
+  --fonts-body-4-black-letter-spacing: 0px;
+  --fonts-body-4-black-line-height: 120%;
+  --fonts-body-4-black-font-style: normal;
+  --fonts-body-3-italic-font-family: "Roboto", Helvetica;
+  --fonts-body-3-italic-font-weight: 400;
+  --fonts-body-3-italic-font-size: 20px;
+  --fonts-body-3-italic-letter-spacing: 0px;
+  --fonts-body-3-italic-line-height: 120%;
+  --fonts-body-3-italic-font-style: italic;
+  --fonts-body-1-italic-font-family: "Roboto", Helvetica;
+  --fonts-body-1-italic-font-weight: 400;
+  --fonts-body-1-italic-font-size: 16px;
+  --fonts-body-1-italic-letter-spacing: 0px;
+  --fonts-body-1-italic-line-height: 120%;
+  --fonts-body-1-italic-font-style: italic;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
 .landing-page-desktop {
   display: flex;
   flex-direction: column;
