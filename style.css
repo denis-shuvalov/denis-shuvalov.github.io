@@ -1410,6 +1410,11 @@ button{
   font-style: var(--fonts-body-3-font-style);
 }
 
+.landing-page-desktop .ready-to-connect ul{
+  text-align: left;
+  padding-left:40px;
+}
+
 .landing-page-desktop .google-form {
   position: relative;
   width: 646px;
