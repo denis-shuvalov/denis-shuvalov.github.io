@@ -122,13 +122,6 @@ a {
   background-color: var(--background);
 }
 
-iframe {
-    border-radius: 10px;
-    background: transparent;
-    width: 100%;
-    height: 700px;
-}
-
 #stay-in-touch-div, #who_its_for, #whats_in_the_box, #how_it_works, #sustainable_by_design, #why_people_love_consense, #about_the_creator, #why_kickstarter, #stay_in_touch{
   scroll-margin-top: 100px;
 }
